@@ -31,7 +31,6 @@
     "lint:ts": "tsc --noEmit",
     "clean": "rimraf lib",
     "build": "bob build",
-    "prepare": "yarn build",
     "cz": "git-cz"
   },
   "peerDependencies": {
@@ -98,5 +97,6 @@
     "*.{ts}": [
       "yarn lint:ts"
     ]
-  }
+  },
+  "dependencies": {}
 }

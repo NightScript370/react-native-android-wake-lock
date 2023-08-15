@@ -1,0 +1,1 @@
+{"version":3,"names":[],"sources":["types.ts"],"sourcesContent":["export interface WakeLockModule {\r\n  setWakeLock: () => Promise<boolean>;\r\n  releaseWakeLock: () => Promise<boolean>;\r\n  isWakeLocked: () => Promise<boolean>;\r\n}\r\n"],"mappings":""}
